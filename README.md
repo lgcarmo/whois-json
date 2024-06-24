@@ -8,7 +8,7 @@ Este projeto fornece um script Python para converter dados brutos do WHOIS em fo
 
 ## Instalação
 
-1. Clone o repositório ou baixe o script `whois-json.py` diretamente.
+1. Clone o repositório ou baixe o script `whois-to-json.py` diretamente.
 
     ```sh
     git clone https://github.com/seu-usuario/whois-json.git
@@ -18,7 +18,7 @@ Este projeto fornece um script Python para converter dados brutos do WHOIS em fo
 2. Torne o script executável.
 
     ```sh
-    chmod +x whois-json.py
+    chmod +x whois-to-json.py
     ```
 
 ## Uso
@@ -36,7 +36,7 @@ Você pode usar o script de duas maneiras: passando um arquivo de entrada ou usa
 2. Execute o script Python fornecendo o arquivo de entrada e o arquivo de saída.
 
     ```sh
-    ./whois-json.py -f whois_raw.txt -o whois_output.json
+    ./whois-to-json.py -f whois_raw.txt -o whois_output.json
     ```
 
 ### Usando a entrada padrão
@@ -44,7 +44,7 @@ Você pode usar o script de duas maneiras: passando um arquivo de entrada ou usa
 1. Execute o comando `whois` e passe a saída diretamente para o script.
 
     ```sh
-    whois example.com | ./whois-json.py -o whois_output.json
+    whois example.com | ./whois-to-json.py -o whois_output.json
     ```
 
 ## Exemplo de Saída
